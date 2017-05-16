@@ -4,6 +4,7 @@
     "type": "project",
     "require": {
         "php": ">=5.4",
+        "ext-gd": "latest",
         "symfony/symfony": "~2.8.6",
         "defuse/php-encryption": "~2.0.1",
         "doctrine/dbal": "~2.5.3",
@@ -95,8 +96,7 @@
         "prestashop/dashtrends": "dev-master",
         "beberlei/DoctrineExtensions": "^1.0",
         "composer/ca-bundle": "^1.0",
-        "nikic/php-parser": "^2.1",
-        "ext-gd": "*"
+        "nikic/php-parser": "^2.1"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.5",
